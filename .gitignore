@@ -1,2 +1,43 @@
-__pycache__
-.idea
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Outputs & figures
+# ===============================
+*.csv
+*.xlsx
+*.parquet
+data/temp/
+data/intermediate/
+output/
+outputs/
+figures/
+plots/
+datasets/*
+limpios/*
+
+# ===============================
+# Temporary files
+# ===============================
+tmp/
+temp/
+
+# ===============================
+# IDE / OS
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.qodo/
